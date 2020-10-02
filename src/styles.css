@@ -9,25 +9,26 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
   background: #283238;
   background-image: linear-gradient(
-    to right top,
+    to top,
     #d16ba5,
     #c777b9,
     #ba83ca,
     #aa8fd8,
     #9a9ae1,
-    #8aa7ec,
-    #79b3f4,
-    #69bff8,
-    #52cffe,
-    #41dfff,
-    #46eefa,
-    #5ffbf1
+    #88a5eb,
+    #74b0f1,
+    #60baf4,
+    #3bc7f7,
+    #00d3f3,
+    #00deea,
+    #2fe7db
   );
   color: #fff;
   position: relative;
   cursor: default;
   display: flex;
   text-align: center;
+  flex-direction: column;
 }
 .lock-screen-container {
   position: relative;
@@ -35,4 +36,16 @@ body {
 
 app-root {
   width: 100%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #000000;
+}
+
+footer a {
+  color: #000;
 }
