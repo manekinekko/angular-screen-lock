@@ -262,12 +262,14 @@ export class PatternService {
   }
 
   buildHint() {
-    this.lineLayer.removeChildren();
-    const line = this.newLine(this.savedPattern, "rgba(255,255,255,0.1)");
-    line.opacity(0.1);
-    this.hintLayer.add(line);
-
-    this.showHint();
+    if (this.savedPattern.length > 0) {
+      this.lineLayer.removeChildren();
+      const line = this.newLine(this.savedPattern, "rgba(255,255,255,0.1)");
+      line.opacity(0.1);
+      this.hintLayer.add(line);
+  
+      this.showHint();
+    }
   }
 
   getSavedPattern() {
