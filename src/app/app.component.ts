@@ -64,12 +64,12 @@ export class AppComponent {
   }
 
   onSuccess() {
-    this.openSnackBar("Success");
+    this.openSnackBar("🎉 Access Granted");
     this.lockRef.clear();
   }
   
   onFailure() {
-    this.openSnackBar("Wrong");
+    this.openSnackBar("🛑 Access Denied!");
     this.lockRef.clear();
   }
 }
