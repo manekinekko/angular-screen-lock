@@ -1,4 +1,6 @@
-# NgScreenLock
+# Angular Screen Lock ([See Tweet](https://twitter.com/manekinekko/status/1313481206021881861?s=20))
+
+![image](https://user-images.githubusercontent.com/1699357/95252641-8b5af580-081d-11eb-8aec-3a1d29c30d7b.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.0-next.4.
 
